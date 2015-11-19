@@ -1,0 +1,1 @@
+arcpy.CreateDatabaseConnection_management(r'D:\Berlin',"DEMO1","SQL_SERVER","ESRIBX0373\SQLEXPRESS","DATABASE_AUTH","SA","SA","SAVE_USERNAME","SANDBOX")

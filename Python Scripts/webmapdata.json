@@ -1,0 +1,173 @@
+{
+  "operationalLayers": [
+    {
+      "id": "windmills_3159",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "@serviceURL@/1",
+      "visibility": true,
+      "opacity": 1,
+      "title": "windmills - SoundRadius",
+      "itemId": "@serviceID@",
+      "popupInfo": {
+        "title": "SoundRadius: {NAME}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "NAME",
+            "label": "NAME",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "HEIGHT",
+            "label": "SIZE",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SOUNDRADIUS",
+            "label": "SOUNDRADIUS",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "BUFF_DIST",
+            "label": "BUFF_DIST",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 2,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "ORIG_FID",
+            "label": "ORIG_FID",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": []
+      }
+    },
+    {
+      "id": "windmills_2691",
+      "layerType": "ArcGISFeatureLayer",
+      "url": "@serviceURL@/0",
+      "visibility": true,
+      "opacity": 1,
+      "title": "windmills",
+      "itemId": "@serviceID@",
+      "popupInfo": {
+        "title": "Windmills: {NAME}",
+        "fieldInfos": [
+          {
+            "fieldName": "OBJECTID",
+            "label": "OBJECTID",
+            "isEditable": false,
+            "tooltip": "",
+            "visible": false,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "NAME",
+            "label": "NAME",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": null,
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "HEIGHT",
+            "label": "SIZE",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          },
+          {
+            "fieldName": "SOUNDRADIUS",
+            "label": "SOUNDRADIUS",
+            "isEditable": true,
+            "tooltip": "",
+            "visible": true,
+            "format": {
+              "places": 0,
+              "digitSeparator": true
+            },
+            "stringFieldOption": "textbox"
+          }
+        ],
+        "description": null,
+        "showAttachments": true,
+        "mediaInfos": []
+      }
+    }
+  ],
+  "baseMap": {
+    "baseMapLayers": [
+      {
+        "id": "layer0",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "opacity": 1,
+        "visibility": true,
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Base/MapServer"
+      },
+      {
+        "id": "World_Dark_Gray_Reference_4144",
+        "layerType": "ArcGISTiledMapServiceLayer",
+        "isReference": true,
+        "opacity": 1,
+        "visibility": true,
+        "url": "http://services.arcgisonline.com/arcgis/rest/services/Canvas/World_Dark_Gray_Reference/MapServer"
+      }
+    ],
+    "title": "Dark Gray Canvas"
+  },
+  "spatialReference": {
+    "wkid": 102100,
+    "latestWkid": 3857
+  },
+  "authoringApp": "WebMapViewer",
+  "authoringAppVersion": "3.9",
+  "version": "2.2"
+}
